@@ -1,0 +1,1229 @@
+2023-12-03 13:34:22,177 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=GG, personalInfo=PersonalInfo(first_name=Kena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER, company=Company(id=null, name=Mers))
+2023-12-03 13:34:22,330 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 13:34:22,600 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 13:34:22,735 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 13:34:22,738 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 13:34:22,738 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 13:34:22,738 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 13:34:22,739 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 13:34:22,740 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 13:34:22,995 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 13:34:23,944 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 13:42:06,261 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=GG, personalInfo=PersonalInfo(first_name=Kena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER, company=Company(id=null, name=Mers))
+2023-12-03 13:42:06,357 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 13:42:06,590 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 13:42:06,720 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 13:42:06,723 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 13:42:06,723 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 13:42:06,724 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 13:42:06,724 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 13:42:06,725 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 13:42:06,922 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 13:42:07,671 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 13:46:13,399 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=GG, personalInfo=PersonalInfo(first_name=Kena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER, company=Company(id=null, name=Mers))
+2023-12-03 13:46:13,494 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 13:46:13,712 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 13:46:13,833 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 13:46:13,838 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 13:46:13,838 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 13:46:13,838 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 13:46:13,838 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 13:46:13,840 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 13:46:14,028 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 13:46:14,788 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 13:46:14,858 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+java.lang.IllegalArgumentException: attempt to create delete event with null entity
+	at org.hibernate.event.spi.DeleteEvent.<init>(DeleteEvent.java:31) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.delete(SessionImpl.java:911) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.remove(SessionImpl.java:2397) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:38) [classes/:?]
+2023-12-03 13:48:13,659 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=GG, personalInfo=PersonalInfo(first_name=Kena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER, company=Company(id=null, name=Mers))
+2023-12-03 13:48:13,758 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 13:48:13,979 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 13:48:14,090 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 13:48:14,092 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 13:48:14,092 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 13:48:14,092 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 13:48:14,092 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 13:48:14,094 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 13:48:14,289 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 13:48:15,066 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 13:51:51,180 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=GG, personalInfo=PersonalInfo(first_name=Kena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER, company=Company(id=null, name=Mers))
+2023-12-03 13:51:51,283 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 13:51:51,488 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 13:51:51,610 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 13:51:51,612 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 13:51:51,613 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 13:51:51,613 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 13:51:51,613 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 13:51:51,614 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 13:51:51,823 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 13:51:52,584 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 13:51:52,641 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23505
+2023-12-03 13:51:52,641 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Mers)" уже существует.
+2023-12-03 13:51:52,645 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Mers)" уже существует.] [insert into Company (name) values (?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:816) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:764) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:290) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:280) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:298) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:774) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:758) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:36) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Mers)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 38 more
+2023-12-03 13:54:02,157 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=GG, personalInfo=PersonalInfo(first_name=Kena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER, company=Company(id=null, name=Mers))
+2023-12-03 13:54:02,258 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 13:54:02,483 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 13:54:02,597 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 13:54:02,600 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 13:54:02,600 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 13:54:02,600 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 13:54:02,600 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 13:54:02,602 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 13:54:02,795 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 13:54:03,575 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 13:54:03,627 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 42P01
+2023-12-03 13:54:03,627 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: отношение "company" не существует
+  Position: 13
+2023-12-03 13:54:03,630 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.SQLGrammarException: could not execute statement [ОШИБКА: отношение "company" не существует
+  Position: 13] [insert into Company (name) values (?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:91) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:816) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:764) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:290) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:280) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:298) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:774) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:758) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:36) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: отношение "company" не существует
+  Position: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 38 more
+2023-12-03 13:54:53,256 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=GG, personalInfo=PersonalInfo(first_name=Kena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER, company=Company(id=null, name=Mers))
+2023-12-03 13:54:53,354 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 13:54:53,567 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 13:54:53,704 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 13:54:53,708 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 13:54:53,708 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 13:54:53,708 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 13:54:53,708 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 13:54:53,710 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 13:54:53,908 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 13:54:54,648 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 14:25:58,482 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=GG, personalInfo=PersonalInfo(first_name=Kena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER, company=Company(id=null, name=Mers, userList=null))
+2023-12-03 14:25:58,584 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 14:25:58,784 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 14:25:58,907 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 14:25:58,910 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 14:25:58,910 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 14:25:58,910 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 14:25:58,910 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 14:25:58,912 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 14:25:59,117 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 14:25:59,918 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 14:25:59,975 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23505
+2023-12-03 14:25:59,976 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Mers)" уже существует.
+2023-12-03 14:25:59,980 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Mers)" уже существует.] [insert into Company (name) values (?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:816) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:764) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:290) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:280) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:298) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:774) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:758) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Mers)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 38 more
+2023-12-03 14:26:14,766 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 14:26:14,992 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 14:26:15,114 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 14:26:15,117 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 14:26:15,117 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 14:26:15,117 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 14:26:15,118 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 14:26:15,119 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 14:26:15,317 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 14:26:16,117 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 14:26:16,236 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 14:28:30,110 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 14:28:30,336 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 14:28:30,464 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 14:28:30,468 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 14:28:30,468 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 14:28:30,468 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 14:28:30,468 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 14:28:30,470 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 14:28:30,675 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 14:28:31,485 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 14:28:31,555 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 14:28:43,475 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=GG, personalInfo=PersonalInfo(first_name=Kena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER, company=Company(id=null, name=Mers, userList=null))
+2023-12-03 14:28:43,576 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 14:28:43,791 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 14:28:43,926 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 14:28:43,928 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 14:28:43,928 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 14:28:43,928 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 14:28:43,929 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 14:28:43,931 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 14:28:44,138 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 14:28:44,917 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 14:29:20,645 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=Gans, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER, company=Company(id=null, name=BMW, userList=null))
+2023-12-03 14:29:20,750 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 14:29:20,961 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 14:29:21,077 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 14:29:21,080 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 14:29:21,080 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 14:29:21,080 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 14:29:21,080 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 14:29:21,082 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 14:29:21,291 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 14:29:22,079 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 14:29:58,373 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 14:29:58,597 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 14:29:58,725 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 14:29:58,728 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 14:29:58,728 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 14:29:58,729 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 14:29:58,729 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 14:29:58,731 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 14:29:58,940 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 14:29:59,798 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 14:29:59,928 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 14:33:40,871 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 14:33:41,095 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 14:33:41,227 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 14:33:41,230 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 14:33:41,231 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 14:33:41,231 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 14:33:41,231 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 14:33:41,233 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 14:33:41,555 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 14:33:42,390 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 14:33:42,506 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 14:38:18,283 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=Gans, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 14:38:18,384 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 14:38:18,581 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 14:38:18,714 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 14:38:18,717 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 14:38:18,717 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 14:38:18,717 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 14:38:18,717 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 14:38:18,719 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 14:38:18,923 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 14:38:19,711 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 14:38:19,770 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23505
+2023-12-03 14:38:19,770 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(BMW)" уже существует.
+2023-12-03 14:38:19,774 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(BMW)" уже существует.] [insert into Company (name) values (?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:816) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:764) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:290) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:280) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:298) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:774) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:758) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(BMW)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 38 more
+2023-12-03 15:09:19,424 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 15:09:19,645 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 15:09:19,773 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 15:09:19,775 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 15:09:19,775 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 15:09:19,776 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 15:09:19,776 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 15:09:19,777 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 15:09:20,012 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 15:09:20,851 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 15:09:20,974 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 15:10:23,236 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 15:10:23,459 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 15:10:23,579 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 15:10:23,582 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 15:10:23,582 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 15:10:23,582 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 15:10:23,582 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 15:10:23,584 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 15:10:23,836 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 15:10:24,676 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 15:10:24,817 INFO o.h.o.c.pooling [main] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 15:25:32,973 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 15:25:33,237 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 15:25:33,372 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 15:25:33,376 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 15:25:33,376 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 15:25:33,376 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 15:25:33,376 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 15:25:33,378 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 15:25:33,602 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 15:25:34,443 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 15:37:06,316 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 15:37:06,538 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 15:37:06,660 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 15:37:06,663 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 15:37:06,663 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 15:37:06,664 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 15:37:06,664 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 15:37:06,665 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 15:37:06,869 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 15:37:07,726 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 15:37:07,796 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23505
+2023-12-03 15:37:07,796 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Opel)" уже существует.
+2023-12-03 15:37:15,861 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=India, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 15:37:15,956 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 15:37:16,174 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 15:37:16,293 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 15:37:16,296 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 15:37:16,296 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 15:37:16,296 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 15:37:16,296 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 15:37:16,298 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 15:37:16,496 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 15:37:17,319 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 15:37:17,397 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23505
+2023-12-03 15:37:17,398 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(BMW)" уже существует.
+2023-12-03 15:37:17,402 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(BMW)" уже существует.] [insert into Company (name) values (?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:816) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:764) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:290) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:280) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:298) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:774) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:758) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(BMW)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 38 more
+2023-12-03 19:09:38,358 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=India, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:09:38,484 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:09:38,696 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:09:38,839 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:09:38,843 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:09:38,843 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:09:38,843 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:09:38,844 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:09:38,845 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:09:39,079 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:09:40,005 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:09:40,078 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23505
+2023-12-03 19:09:40,078 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(BMW)" уже существует.
+2023-12-03 19:09:40,084 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(BMW)" уже существует.] [insert into Company (name) values (?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:315) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:234) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:888) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:859) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:253) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:243) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:231) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:867) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:853) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(BMW)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 38 more
+2023-12-03 19:11:47,645 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=Ocean, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:11:47,762 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:11:47,986 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:11:48,125 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:11:48,128 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:11:48,129 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:11:48,129 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:11:48,129 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:11:48,131 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:11:48,371 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:11:49,326 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:11:49,413 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23505
+2023-12-03 19:11:49,414 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(BMW)" уже существует.
+2023-12-03 19:11:49,418 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(BMW)" уже существует.] [insert into Company (name) values (?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:315) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:234) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:888) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:859) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:253) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:243) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:231) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:867) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:853) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(BMW)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 38 more
+2023-12-03 19:18:28,328 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=Ocean, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:18:28,441 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:18:28,658 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:18:28,799 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:18:28,802 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:18:28,803 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:18:28,803 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:18:28,803 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:18:28,805 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:18:29,170 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:18:30,132 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:18:49,294 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=First, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:18:49,410 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:18:49,638 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:18:49,784 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:18:49,788 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:18:49,788 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:18:49,788 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:18:49,788 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:18:49,790 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:18:50,019 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:18:50,976 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:20:05,289 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=First, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:20:05,394 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:20:05,610 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:20:05,756 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:20:05,759 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:20:05,759 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:20:05,759 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:20:05,759 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:20:05,761 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:20:05,998 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:20:06,939 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:20:07,018 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23505
+2023-12-03 19:20:07,018 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_user_name_key"
+  Detail: Ключ "(user_name)=(First)" уже существует.
+2023-12-03 19:20:07,023 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_user_name_key"
+  Detail: Ключ "(user_name)=(First)" уже существует.] [insert into public.users (company_id,birth_date,first_name,last_name,role,user_name) values (?,?,?,?,?,?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:315) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:234) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:867) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:853) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_user_name_key"
+  Detail: Ключ "(user_name)=(First)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 24 more
+2023-12-03 19:20:31,314 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=Second, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:20:31,438 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:20:31,653 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:20:31,798 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:20:31,801 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:20:31,801 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:20:31,801 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:20:31,801 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:20:31,802 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:20:32,036 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:20:32,970 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:24:36,264 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=Second, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:24:36,385 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:24:36,619 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:24:36,770 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:24:36,773 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:24:36,773 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:24:36,773 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:24:36,773 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:24:36,775 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:24:37,119 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:24:38,050 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:24:38,121 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23502
+2023-12-03 19:24:38,121 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: значение NULL в столбце "id" отношения "company" нарушает ограничение NOT NULL
+  Detail: Ошибочная строка содержит (null, Opel).
+2023-12-03 19:24:38,126 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: значение NULL в столбце "id" отношения "company" нарушает ограничение NOT NULL
+  Detail: Ошибочная строка содержит (null, Opel).] [insert into Company (name) values (?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:315) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:234) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:888) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:859) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:253) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:243) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:231) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:867) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:853) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: значение NULL в столбце "id" отношения "company" нарушает ограничение NOT NULL
+  Detail: Ошибочная строка содержит (null, Opel).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 38 more
+2023-12-03 19:28:04,396 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=Second, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:28:04,506 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:28:04,728 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:28:04,862 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:28:04,865 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:28:04,865 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:28:04,866 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:28:04,866 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:28:04,867 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:28:05,121 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:28:06,111 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:28:06,186 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23502
+2023-12-03 19:28:06,186 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: значение NULL в столбце "id" отношения "company" нарушает ограничение NOT NULL
+  Detail: Ошибочная строка содержит (null, Opel).
+2023-12-03 19:28:06,192 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: значение NULL в столбце "id" отношения "company" нарушает ограничение NOT NULL
+  Detail: Ошибочная строка содержит (null, Opel).] [insert into Company (name) values (?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:315) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:234) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:888) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:859) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:253) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:243) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:231) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:867) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:853) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: значение NULL в столбце "id" отношения "company" нарушает ограничение NOT NULL
+  Detail: Ошибочная строка содержит (null, Opel).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 38 more
+2023-12-03 19:31:40,137 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=Second, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:31:40,256 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:31:40,495 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:31:40,638 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:31:40,641 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:31:40,641 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:31:40,641 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:31:40,641 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:31:40,643 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:31:40,880 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:31:41,806 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:32:25,747 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=First, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:32:25,860 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:32:26,083 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:32:26,234 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:32:26,236 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:32:26,236 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:32:26,237 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:32:26,237 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:32:26,238 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:32:26,582 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:32:27,512 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:32:27,589 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23505
+2023-12-03 19:32:27,589 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Opel)" уже существует.
+2023-12-03 19:32:27,596 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Opel)" уже существует.] [insert into Company (name) values (?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:315) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:234) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:888) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:859) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:253) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:243) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:231) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:867) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:853) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Opel)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 38 more
+2023-12-03 19:36:46,835 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=First, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:36:46,955 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:36:47,176 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:36:47,324 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:36:47,327 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:36:47,328 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:36:47,328 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:36:47,329 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:36:47,331 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:36:47,582 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:36:48,553 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:36:48,597 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.id.IdentifierGenerationException: Identifier of entity 'com.vm.hiber.entity.Company' must be manually assigned before calling 'persist()'
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:204) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:315) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:234) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:888) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:859) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:253) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:243) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:231) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:867) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:853) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+2023-12-03 19:39:36,925 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=First, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:39:37,035 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:39:37,262 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:39:37,414 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:39:37,417 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:39:37,418 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:39:37,418 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:39:37,418 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:39:37,420 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:39:37,658 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:39:38,607 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:41:07,800 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=First, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:41:07,913 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:41:08,135 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:41:08,288 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:41:08,290 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:41:08,290 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:41:08,290 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:41:08,291 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:41:08,292 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:41:08,531 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:41:09,485 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:41:09,561 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23505
+2023-12-03 19:41:09,561 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Opel)" уже существует.
+2023-12-03 19:41:09,566 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Opel)" уже существует.] [insert into Company (name) values (?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:315) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:234) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:888) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:859) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:253) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:243) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:231) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:867) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:853) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Opel)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 38 more
+2023-12-03 19:41:40,850 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=First, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:41:40,968 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:41:41,184 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:41:41,322 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:41:41,324 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:41:41,325 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:41:41,325 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:41:41,325 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:41:41,326 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:41:41,557 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:41:42,521 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:41:42,610 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23505
+2023-12-03 19:41:42,610 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_user_name_key"
+  Detail: Ключ "(user_name)=(First)" уже существует.
+2023-12-03 19:41:42,614 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_user_name_key"
+  Detail: Ключ "(user_name)=(First)" уже существует.] [insert into public.users (company_id,birth_date,first_name,last_name,role,user_name) values (?,?,?,?,?,?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:315) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:234) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:867) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:853) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "users_user_name_key"
+  Detail: Ключ "(user_name)=(First)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 24 more
+2023-12-03 19:42:10,039 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=3, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:42:10,147 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:42:10,376 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:42:10,528 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:42:10,530 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:42:10,531 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:42:10,531 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:42:10,531 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:42:10,532 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:42:10,871 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:42:11,796 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:42:53,229 INFO c.v.h.HibernateRunner [main] User object in transient state: User(id=null, user_name=4, personalInfo=PersonalInfo(first_name=Lena, last_name=Met, birthDay=BirthDay[birthDay=1982-08-12]), role=USER)
+2023-12-03 19:42:53,341 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.0.Final
+2023-12-03 19:42:53,549 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-03 19:42:53,699 WARN o.h.o.c.pooling [main] HHH10001002: Using built-in connection pool (not intended for production use)
+2023-12-03 19:42:53,701 INFO o.h.o.c.pooling [main] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+2023-12-03 19:42:53,702 INFO o.h.o.c.pooling [main] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/java_db]
+2023-12-03 19:42:53,702 INFO o.h.o.c.pooling [main] HHH10001001: Connection properties: {password=****, user=postgres}
+2023-12-03 19:42:53,702 INFO o.h.o.c.pooling [main] HHH10001003: Autocommit mode: false
+2023-12-03 19:42:53,704 INFO o.h.o.c.pooling [main] HHH10001115: Connection pool size: 20 (min=1)
+2023-12-03 19:42:53,942 WARN o.h.o.deprecation [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-03 19:42:54,866 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-03 19:42:54,941 WARN o.h.e.j.s.SqlExceptionHelper [main] SQL Error: 0, SQLState: 23505
+2023-12-03 19:42:54,941 ERROR o.h.e.j.s.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Mersedes)" уже существует.
+2023-12-03 19:42:54,946 ERROR c.v.h.HibernateRunner [main] Exception occurred: 
+org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Mersedes)" уже существует.] [insert into Company (name) values (?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:97) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:315) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:234) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:888) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:859) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:253) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.spi.CascadingActions$6.cascade(CascadingActions.java:243) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:517) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:439) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:224) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:157) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:482) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:231) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:153) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:143) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:867) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:853) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	at com.vm.hiber.HibernateRunner.main(HibernateRunner.java:37) [classes/:?]
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "company_name_key"
+  Detail: Ключ "(name)=(Mersedes)" уже существует.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2712) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2400) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:367) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:507) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:424) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.7.0.jar:42.7.0]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.0.Final.jar:6.4.0.Final]
+	... 38 more
